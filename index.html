@@ -4,58 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Exemplo</title>
+    <title>Formulário de Fale Conosco</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div class="container">
         <div class="form-image">
-            <img src="./img/contact_us.svg" alt="Imagem referente ao contato conosco">
+            <img src="./img/contact_us.svg" alt="Imagem referente ao Fale Conosco">
         </div>
-    </div>
-    <div class="form">
-        <form action="#">
-            <div class="form-header">
-                <div class="title">
-                    <h1>Contate-nos</h1>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Fale Conosco</h1>
+                    </div>
                 </div>
-            </div>
-            <div class="input-group">
-                <div class="input-box">
-                    <label for="name">Nome Completo: </label>
-                    <input id="name" name="name" type="text" placeholder="Digite seu nome completo" required/>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="name">Nome Completo: </label>
+                        <input id="name" name="name" type="text" placeholder="Digite seu nome completo" required/>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail: </label>
+                        <input id="email" name="email" type="email" placeholder="Digite seu e-mail" required/>
+                        </div>
+                    <div class="input-box">
+                        <label for="date">Data de Nascimento: </label>
+                        <input id="date" name="date" type="date"/>
+                    </div>
+                    <div class="input-box">
+                        <label for="phone">Telefone: </label>
+                        <input id="phone" type="tel" placeholder="Digite seu telefone"/>
+                    </div>
+                    <div class="input-box">
+                        <fieldset>
+                            <legend>Decida o tipo de texto:</legend>
+                            <input type="radio" id="sugestion" name="question" checked>
+                            <label for="sugestion">Sugestão</label>
+                            <input type="radio" id="complaint" name="question">
+                            <label for="complaint">Reclamação</label>
+                        </fieldset>
+                    </div>
+                    <div class="input-box">
+                        <label for="msg">Mensagem:</label>
+                        <textarea id="msg" placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                    <div class="input-box">
+                        <button type="submit">Enviar</button>
+                    </div>
                 </div>
-                <div class="input-box">
-                    <label for="email">E-mail: </label>
-                    <input id="email" name="email" type="email" placeholder="Digite seu e-mail" required/>
-                </div>
-                <div class="input-box">
-                    <label for="date">Data de Nascimento: </label>
-                    <input id="date" name="date" type="date"/>
-                </div>
-                <div class="input-box">
-                    <label for="phone">Telefone: </label>
-                    <input id="phone" type="number" placeholder="Digite seu telefone"/>
-                </div>
-                <div class="input-box">
-                    <fieldset>
-                        <legend>Decida o tipo de texto:</legend>
-                        <input type="radio" id="sugestion" name="question" checked>
-                        <label for="sugestion">Sugestão</label>
-                        <input type="radio" id="complaint" name="question">
-                        <label for="complaint">Reclamação</label>
-                    </fieldset>
-                </div>
-                <div class="input-box">
-                    <label for="msg">Mensagem:</label>
-                    <textarea id="msg" placeholder="Digite sua mensagem"></textarea>
-                </div>
-                <div class="input-box">
-                    <button type="submit">Enviar</button>
-                </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
 </body>
 </html>
